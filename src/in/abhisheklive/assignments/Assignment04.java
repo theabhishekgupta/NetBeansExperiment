@@ -153,7 +153,7 @@ public class Assignment04 extends javax.swing.JFrame {
         }
         for(int i=0;i<jcb2.getItemCount();i++){
           if(jcb2.getItemAt(i).equalsIgnoreCase(item)==true){
-            JOptionPane.showMessageDialog(null,"This Month is All Ready Selected");
+            JOptionPane.showMessageDialog(null,"This Month is Already Selected");
             return;
           }
         }  
