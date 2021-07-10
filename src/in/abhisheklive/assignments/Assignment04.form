@@ -55,7 +55,7 @@
                               <Component id="jcb1" max="32767" attributes="0"/>
                               <Component id="btnAddItem" pref="110" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="42" max="32767" attributes="0"/>
+                          <EmptySpace pref="44" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <Component id="jcb2" min="-2" pref="110" max="-2" attributes="0"/>
@@ -82,7 +82,7 @@
                       <Component id="jcb1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jcb2" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="91" max="32767" attributes="0"/>
+                  <EmptySpace pref="98" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="btnAddSelectItem" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="btnAddItem" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -121,6 +121,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnAddSelectItem">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Add Select Item"/>
           </Properties>
           <Events>
@@ -129,6 +132,9 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnAddItem">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Add Item"/>
           </Properties>
           <Events>
@@ -146,7 +152,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="16" style="1"/>
+              <Font name="Tahoma" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Months List"/>
           </Properties>
@@ -154,7 +160,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="16" style="1"/>
+              <Font name="Tahoma" size="14" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Selected Months"/>
           </Properties>
